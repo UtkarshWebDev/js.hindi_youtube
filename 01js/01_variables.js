@@ -20,3 +20,6 @@ accountCity = "hydrabad"
 console.log(accountEmail);
 console.table([accountEmail,accountPasword,accountId,accountCity,accountname])
 
+
+
+
