@@ -46,13 +46,53 @@ const user = [
 ]
 
 user[1].email
-console.log(tinderUser);
+//console.log(tinderUser);
 
 
-console.log(Object.keys(tinderUser));
-console.log(Object.values(tinderUser));
-console.log(Object.entries(tinderUser));
+//console.log(Object.keys(tinderUser));
+//console.log(Object.values(tinderUser));
+//console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn')); // tells us that it is their or not 
+//console.log(tinderUser.hasOwnProperty('isLoggedIn')); // tells us that it is their or not 
 
 
+////////////////////////////////////destructure///////////////
+
+
+const course = {
+    coursename: "UtkarshYT",
+    price: 1200,
+    courseInstructor: "Utkarsh Prajapati"
+}
+
+//course.courseInstructor
+const {courseInstructor: instructor} =course  ///destructure => cousrseInstructor: instructor
+
+//console.log(courseInstructor);
+
+console.log(instructor);
+
+
+
+//////////JASON//////////////
+    
+
+/*{
+
+    coursename: "UtkarshYT",
+    price: 1200,
+    courseInstructor: "Utkarsh Prajapati"
+
+}*/
+
+/*[
+{
+
+}
+{
+
+}
+{
+
+}
+]*/
