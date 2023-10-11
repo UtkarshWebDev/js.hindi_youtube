@@ -1,2 +1,2 @@
-# js.hindi_youtube
-code repo for javascript
+# JAVA SCRIPT COURSE
+Code Repo for Javascript
