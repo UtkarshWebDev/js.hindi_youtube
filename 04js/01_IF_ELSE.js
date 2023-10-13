@@ -48,12 +48,12 @@ const debitCard = true
 const logedinFromGoogle = false
 const loggedInFromEmail = true
 
-if (userLoggedIn && debitCard) {     ///// && is called impercent
+//if (userLoggedIn && debitCard) {     ///// && is called impercent
     console.log("allow to buy course");
 
 }
 
-if (logedinFromGoogle || loggedInFromEmail ){        // it means  or || 
+//if (logedinFromGoogle || loggedInFromEmail ){        // it means  or || 
     console.log("user logged in ");
 }
 
