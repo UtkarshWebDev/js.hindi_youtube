@@ -17,6 +17,4 @@ while (arr < myArray.length) {
     arr = arr + 1
 }
 
-
-
 /////////////////////////////      DO while /////////////// 
