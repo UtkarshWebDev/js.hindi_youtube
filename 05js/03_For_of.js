@@ -42,13 +42,5 @@ for (const [key, value] of map) {
 
 
 
-const myObject = {
-    game1 : 'NFS'
-    game2 : 'spider'
 
-}
-
-for (const [key, value] of myObject) {
-    console.log(key , "=>" , value);
-}
 
